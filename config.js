@@ -9,6 +9,10 @@ tailwind.config = {
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
         title: ['Playfair Display SC', 'serif'],
+      },
+      backgroundImage: {
+        mobile: "url('bg-mobile.png')",
+        desktop: "url('bg-desktop.png')",
       }
     },
   },
